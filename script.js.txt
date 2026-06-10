@@ -1,0 +1,79 @@
+function showQuestions(){
+
+document.getElementById("questions")
+.scrollIntoView({behavior:"smooth"});
+
+}
+
+function wrong(){
+
+alert("Oops 😜 Try Again ❤️");
+
+}
+
+function correct(){
+
+alert("Correct ❤️✨");
+
+}
+
+
+
+let images=[
+"photos/photo1.jpg",
+"photos/photo2.jpg",
+"photos/photo3.jpg",
+"photos/photo4.jpg",
+"photos/photo5.jpg",
+"photos/photo6.jpg",
+"photos/photo7.jpg",
+"photos/photo8.jpg"
+];
+
+let i=0;
+
+setInterval(function(){
+
+i++;
+
+if(i>=images.length){
+
+i=0;
+
+}
+
+document.getElementById("slide").src=images[i];
+
+},2500);
+
+
+
+let text=`It's only been a month, but you've already filled my life with so much happiness, comfort, and love.
+
+Thank you for being so caring, understanding, and supportive every single day.
+
+Life feels more beautiful with you in it.
+
+I love you today, tomorrow and always ❤️✨
+
+Happy One Month, My Queen.
+
+- Shaibaj ❤️`;
+
+let x=0;
+
+function typeWriter(){
+
+if(x<text.length){
+
+document.getElementById("typing").innerHTML += text.charAt(x);
+
+x++;
+
+setTimeout(typeWriter,40);
+
+}
+
+}
+
+typeWriter();

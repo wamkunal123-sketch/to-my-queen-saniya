@@ -1,0 +1,45 @@
+body{
+margin:0;
+background:#ffeef5;
+font-family:Poppins;
+text-align:center;
+color:#444;
+}
+
+section{
+padding:70px 20px;
+}
+
+h1{
+color:#ff4d88;
+}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:50px;
+background:#ff4d88;
+color:white;
+font-size:18px;
+cursor:pointer;
+margin:10px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+margin:30px auto;
+max-width:600px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+#slide{
+width:300px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.final{
+background:linear-gradient(#ffd6e7,#fff);
+}

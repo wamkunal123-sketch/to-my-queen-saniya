@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>To My Queen, Saniya ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Hey Saniya ❤️</h1>
+
+<p>I have something special for you ✨</p>
+
+<button onclick="showQuestions()">
+Open My Heart ❤️
+</button>
+
+</section>
+
+
+<section class="questions" id="questions">
+
+<div class="card">
+<h2>Who makes my ordinary days extraordinary?</h2>
+
+<button onclick="wrong()">My Work 💼</button>
+
+<button onclick="wrong()">My Phone 📱</button>
+
+<button onclick="correct()">You ❤️</button>
+</div>
+
+
+<div class="card">
+<h2>Who owns the most beautiful smile?</h2>
+
+<button onclick="wrong()">Someone Else</button>
+
+<button onclick="wrong()">A Celebrity</button>
+
+<button onclick="correct()">Saniya ❤️</button>
+</div>
+
+
+<div class="card">
+<h2>Who is my wife and my best friend?</h2>
+
+<button onclick="wrong()">Nobody</button>
+
+<button onclick="wrong()">Maybe Someone</button>
+
+<button onclick="correct()">Saniya ❤️</button>
+</div>
+
+</section>
+
+
+<section class="gallery">
+
+<h1>Our Beautiful Memories ❤️</h1>
+
+<img id="slide" src="photos/photo1.jpg">
+
+</section>
+
+
+<section class="letter">
+
+<h1>Happy One Month, My Queen ❤️</h1>
+
+<p id="typing"></p>
+
+</section>
+
+
+<section class="final">
+
+<h1>11 May 2026 ❤️ 11 June 2026</h1>
+
+<h2>One Month Down</h2>
+
+<h2>Forever To Go ❤️</h2>
+
+<h1>Happy One Month Anniversary 👑</h1>
+
+<h2>Love You Always</h2>
+
+<h1>Shaibaj ❤️</h1>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
